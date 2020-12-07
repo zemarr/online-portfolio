@@ -1,0 +1,208 @@
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.letsTalk,
+.seeMyProjects {
+    background-color: #D14444;
+    color: white;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.myResume {
+    color: black;
+    background-color: white;
+    border: 1px solid #f6f6f6;
+}
+
+.letsTalk,
+.myResume {
+    margin-right: 30px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.letsTalk:hover,
+.seeMyProjects:hover {
+    transform: translateY(-4px);
+    transition: all 0.2s ease;
+    background-color: #ec3454;
+    box-shadow: -1px 15px 20px #e52e2e66;
+    border: 1px solid transparent;
+}
+
+.myResume:hover {
+    transform: translateY(-4px);
+    transition: all 0.2s ease;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.letsTalk a {
+    color: white;
+    font-weight: 600;
+}
+
+.myResume a {
+    color: black;
+    font-weight: 600;
+}
+
+.mainContact {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.heroLeft,
+.heroRight {
+    width: 50%;
+}
+
+.heroLeft h1 {
+    display: inline-block;
+    box-sizing: content-box;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.heroLeft h1::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #D14444;
+    display: block;
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    z-index: -1;
+    opacity: .4;
+}
+
+.profileImage {
+    height: 350px;
+    /* background: crimson; */
+    margin: 16px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 100px;
+}
+
+.github {
+    width: 25px;
+    height: 25px;
+    background-image: url(https://res.cloudinary.com/cdacs/image/upload/v1607338370/Portfolio%20Assets/iconfinder_github_x6s0fc.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.linkedin {
+    width: 25px;
+    height: 25px;
+    background-image: url(https://res.cloudinary.com/cdacs/image/upload/v1607338373/Portfolio%20Assets/iconfinder_square-linkedin_jsidyq.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    width: 25px;
+    height: 25px;
+    background-image: url(https://res.cloudinary.com/cdacs/image/upload/v1607338372/Portfolio%20Assets/iconfinder_instagram_2515843_irf7oj.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/********************************************** ABOUT **********************************************/
+
+.whatIDo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* 
+.sectionHeading {
+
+} */
+
+.sectionHeading h2 {
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 185px;
+    letter-spacing: -0.6px;
+}
+
+.sectionHeading h2::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #D14444;
+    display: block;
+    position: relative;
+    bottom: 18px;
+    left: 10px;
+    z-index: -1;
+    opacity: .4;
+}
+
+.workLeft,
+.workRight {
+    width: 50%;
+}
+
+.workImage {
+    height: 300px;
+    background-image: url(https://res.cloudinary.com/cdacs/image/upload/v1607352497/Portfolio%20Assets/iconfinder_website-builder_4263525_jj45cu.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/******************************************** MEDIA QUERY ********************************************/
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .heroLeft h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .heroLeft h1 {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+    .heroLeft,
+    .heroRight {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .heroLeft h1 {
+        font-size: 42px;
+    }
+}

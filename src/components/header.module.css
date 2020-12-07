@@ -1,0 +1,70 @@
+.Logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://res.cloudinary.com/cdacs/image/upload/v1607352499/Portfolio%20Assets/iconfinder_06-halloween-web-spider-scarry-_6973614_t5iow2.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ec3454;
+    border-radius: 3px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    padding: 0 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    padding: .6rem 1rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    border-radius: 4px;
+    color: hsla(0, 0%, 0%, 0.8);
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background-color: #ec3454;
+    color: white;
+}
+
+.hamburger {
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.hamburger div {
+    margin: 4px 0;
+    width: 18px;
+    height: 2px;
+    background-color: black;
+}
+
+/******************************************* MEDIA QUERIES *******************************************/
+
+@media all and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: initial;
+    }
+}

@@ -1,0 +1,27 @@
+.copyright {
+    /* padding: 15px 0; */
+    height: 8vh;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D14444;
+    color: white;
+}
+
+.copyright a {
+    color: darkmagenta;
+    font-weight: 600;
+    margin: 3px;
+}
+
+
+/******************************************* MEDIA QUERIES *******************************************/
+
+@media all and (max-width: 768px) {
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
