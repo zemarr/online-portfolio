@@ -82,4 +82,8 @@ nav ul li a:hover {
     .hamburger {
         display: initial;
     }
+
+    .logoContainer span {
+        opacity: 0;
+    }
 }

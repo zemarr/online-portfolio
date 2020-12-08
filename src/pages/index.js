@@ -36,7 +36,7 @@ const IndexPage = () => (
 
     <section className={`${style.whatIDo}`}>
       <div className="container">
-        <div className="row component-padding">
+        <div className="row component-padding wrap">
           <div className={style.workLeft}>
             <div className={style.workImage}></div>
           </div>

@@ -614,6 +614,11 @@ pre tt:after {
   height: 12vh
 }
 
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 
 

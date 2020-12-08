@@ -143,6 +143,7 @@
 
 .workImage {
     height: 300px;
+    width: 300px;
     background-image: url(https://res.cloudinary.com/cdacs/image/upload/v1607352497/Portfolio%20Assets/iconfinder_website-builder_4263525_jj45cu.svg);
     background-size: contain;
     background-position: center;
@@ -164,6 +165,20 @@
 @media only screen and (max-width: 768px) {
     .heroLeft h1 {
         font-size: 48px;
+    }
+
+    .profileImage {
+        display: none;
+    }
+
+    .workLeft,
+    .workRight {
+        width: -webkit-fill-available;
+        align-items: center;
+    }
+
+    .whatIDo {
+        padding-top: 50px;
     }
 }
 
