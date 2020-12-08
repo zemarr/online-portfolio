@@ -5,8 +5,23 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #ec3454;
+    /* background-color: #ec3454; */
     border-radius: 3px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.logoContainer:visited {
+    color: #ec3454;
+}
+
+.logoContainer span {
+    font-weight: 600;
+    font-size: 23px;
 }
 
 nav {

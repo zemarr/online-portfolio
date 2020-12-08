@@ -18,6 +18,7 @@
     font-weight: 600;
     height: 45px;
     width: 180px;
+    border: 1px solid transparent;
     border-radius: 4px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;

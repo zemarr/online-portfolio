@@ -1,5 +1,6 @@
 import React from "react"
 import style from './index.module.css'
+import { Link } from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -21,9 +22,9 @@ const IndexPage = () => (
               <Button name="MY RESUME" url="#" className={style.myResume}></Button>
             </div>
             <div className={style.social}>
-              <a href="https://github.com/zemarr?tab=repositories" target="_blank" className={style.github}></a>
-              <a href="https://www.linkedin.com/in/ayika-chukwudalu/" target="_blank" className={style.linkedin}></a>
-              <a href="https://www.instagram.com/iamzemar/" target="_blank" className={style.instagram}></a>
+              <Link href="https://github.com/zemarr?tab=repositories" target="_blank" rel='noreferrer' content='github' className={style.github}></Link>
+              <Link href="https://www.linkedin.com/in/ayika-chukwudalu/" target="_blank" rel='noreferrer' content='linkedin' className={style.linkedin}></Link>
+              <Link href="https://www.instagram.com/iamzemar/" target="_blank" content='instagram' className={style.instagram}></Link>
             </div>
           </div>
           <div className={style.heroRight}>
@@ -35,9 +36,6 @@ const IndexPage = () => (
 
     <section className={`${style.whatIDo}`}>
       <div className="container">
-        <div className={style.sectionHeading}>
-          <h2>About me</h2>
-        </div>
         <div className="row component-padding">
           <div className={style.workLeft}>
             <div className={style.workImage}></div>
@@ -57,7 +55,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    
+
   </Layout>
 )
 

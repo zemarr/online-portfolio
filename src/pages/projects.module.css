@@ -1,0 +1,21 @@
+.projectGallery {
+    position: relative;
+}
+
+.galley {
+    width: 100%;
+    /* height: calc(100vh - 20vh); */
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wickretMockup {
+    background: url(https://res.cloudinary.com/cdacs/image/upload/v1607420262/Portfolio%20Assets/mockup-of-a-man-using-a-macbook-in-a-cozy-living-room-2324-el1_h7fv39.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}

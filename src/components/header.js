@@ -10,8 +10,9 @@ const active = {
 const Header = () => (
   <header>
     <nav>
-      <Link to='/'>
+      <Link to='/' className={style.logoContainer}>
         <div className={style.Logo}></div>
+        <span>Dev</span>
       </Link>
       <div className=''>
         <ul>
