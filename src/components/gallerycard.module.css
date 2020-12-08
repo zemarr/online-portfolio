@@ -3,15 +3,16 @@
     height: 350px;
     margin: 1px;
     position: relative;
-    font-size: 2rem;
-    color: white;
-    margin: 15px;
+    margin: 4px;
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.226);
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .front,
@@ -31,9 +32,10 @@
 
 .back {
     transform: perspective(3000px) rotateY(180deg);
-    background: yellow;
     backface-visibility: hidden;
     transition: all 1s ease;
+    border: 0px 0px 10px 1px rgb(0 0 0 / 8%);
+    padding: 35px;
 }
 
 .card:hover>.front {
@@ -42,9 +44,15 @@
 
 .card:hover>.back {
     transform: perspective(3000px) rotateY(0deg);
+    box-shadow: 0px 0px 29px -19px rgb(0 0 0 / 28%);
+    /* border-radius: 10px; */
 }
 
 .front h4 {
-    transform: translate(110px, 200px);
-    display: inline-block;
+    color: white;
+    font-size: 2rem;
+}
+
+.back h5 {
+    font-size: 1.7rem;
 }
