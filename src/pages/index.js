@@ -18,8 +18,8 @@ const IndexPage = () => (
               Do you need a website?
           </p>
             <div className={style.mainContact}>
-              <Button name="LET'S TALK" url="/contact" className={style.letsTalk}></Button>
-              <Button name="MY RESUME" url="#" className={style.myResume}></Button>
+              <Button name="LET'S TALK" url="#" className={style.letsTalk}></Button>
+              <Button name="MY RESUME" url="https://docs.google.com/document/d/1Oe1-qUtZzZ7JXcgRG6qec1lUfHYSNolXZC2zc_LJ6l4/edit" className={style.myResume}></Button>
             </div>
             <div className={style.social}>
               <Link href="https://github.com/zemarr?tab=repositories" target="_blank" rel='noreferrer' content='github' className={style.github}></Link>

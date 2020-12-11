@@ -68,7 +68,7 @@
     display: inline-block;
     box-sizing: content-box;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 300;
     letter-spacing: 1px;
     margin-bottom: 16px;
 }
@@ -88,7 +88,6 @@
 
 .profileImage {
     height: 350px;
-    /* background: crimson; */
     margin: 16px;
 }
 
@@ -141,6 +140,11 @@
     width: 50%;
 }
 
+.workRight i {
+    font-size: 14px;
+    color: #806292;
+}
+
 .workImage {
     height: 300px;
     width: 300px;
@@ -175,6 +179,11 @@
     .workRight {
         width: -webkit-fill-available;
         align-items: center;
+    }
+
+    .workRight i {
+        font-size: 14px;
+        color: #806292;
     }
 
     .whatIDo {

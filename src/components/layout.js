@@ -8,7 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
-import { Link } from 'gatsby'
 
 import Header from "./header"
 import Footer from "./footer"
@@ -21,7 +20,7 @@ const Layout = ({ children }) => {
       <div style={{ position: 'relative' }}>
         <main>{children}</main>
 
-        <Link to='/'>Back to Home</Link>
+        
         <Footer />
       </div>
     </>
