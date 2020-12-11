@@ -76,6 +76,10 @@
 .profileImage {
     height: 350px;
     margin: 16px;
+    background-image: url(https://res.cloudinary.com/cdacs/image/upload/v1607699471/Portfolio%20Assets/self-selfie-01_cuekdi.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .social {
@@ -156,6 +160,10 @@
 @media only screen and (max-width: 768px) {
     .heroLeft h1 {
         font-size: 48px;
+    }
+
+    .heroRight {
+        display: none;
     }
 
     .profileImage {

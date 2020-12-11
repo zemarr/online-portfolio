@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './projects.module.css'
+import SEO from "../components/seo"
 
 import Layout from '../components/layout'
 import GalleryCard from '../components/gallerycard'
@@ -7,6 +8,7 @@ import GalleryCard from '../components/gallerycard'
 const Projects = () => {
     return (
         <Layout>
+            <SEO title="Projects" />
             <section className={style.projectGallery}>
                 <div className='container'>
                     <div className="row wrap center-all">
