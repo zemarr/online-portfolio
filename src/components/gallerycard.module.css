@@ -1,37 +1,7 @@
-.card {
-    width: 250px;
-    padding: 5px;
-    margin: 15px;
-    position: relative;
-    border-radius: 4px;
-    background-color: white;
-    box-shadow: 0px 0px 10px -4px rgb(0 0 0 / 28%);
-    transition: all .2s ease;
-}
+/* .card {
+    
+} */
 
-.card:hover {
-    box-shadow: 0px 3px 25px -8px rgb(0 0 0 / 28%);
-    transition: all .2s ease;
-}
 
-.overlay {
-    background-color: rgba(0, 0, 0, 0.226);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.thumbImage {
-    width: auto;
-    height: 200px;
-    top: 0;
-    left: 0;
-}
-
-.card p {
-    text-align: center;
-    margin: 10px 0 10px 0;
-}
 
