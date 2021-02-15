@@ -39,7 +39,7 @@ const Card = styled.div`
 
 const Overlay = styled.div`
   background-color: rgba(0, 0, 0, 0.226);
-  height: 100%;
+  height: 300px;
   width: 600px;
   display: flex;
   justify-content: center;

@@ -32,14 +32,14 @@ const Projects = () => {
         <GalleryCard
           image={liight}
           projectName="Liight"
-          projectDescription=""
+          projectDescription="JoslaNG Hackathon. Liight is a an online platform used to recharge and fund your Electric bills all from a single web-based app."
           visit="https://liight-genesis-1097f8.netlify.app/"
           technologies={["React", "SCSS", "Javascript"]}
         />
         <GalleryCard
           image={xo}
           projectName="Javascript TicTacToe Game"
-          projectDescription=""
+          projectDescription="All traditional chances of scoring a win against CP are made much more difficult. You'll need to be very good to win the game"
           visit="http://bit.ly/2TkX-0u0JG"
           technologies={["Javascript"]}
         />
