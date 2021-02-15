@@ -16,7 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(243, 243, 243);
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   word-wrap: break-word;
   font-kerning: normal;
@@ -45,18 +45,6 @@ progress {
 [hidden],
 template {
   display: none;
-}
-
-a {
-  background-color: transparent;
-  text-decoration: none;
-  font-family: 'Rubik', sans-serif;
-  -webkit-text-decoration-skip: objects;
-}
-
-a:active,
-a:hover {
-  outline-width: 0;
 }
 
 abbr[title] {
@@ -90,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -120,19 +108,6 @@ sub {
 
 sup {
   top: -0.5em;
-}
-
-img {
-  border-style: none;
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 
 svg:not(:root) {
@@ -288,7 +263,6 @@ textarea {
   box-sizing: inherit;
 }
 
-
 hgroup {
   margin-left: 0;
   margin-right: 0;
@@ -346,19 +320,6 @@ dd {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-}
-
-p {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  font-weight: 400;
-  font-size: 17px;
 }
 
 pre {
@@ -473,13 +434,13 @@ ul li {
   padding-left: 0;
 }
 
-li>ol {
+li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
 
-li>ul {
+li > ul {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
@@ -497,7 +458,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 
-li>p {
+li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 
@@ -612,7 +573,7 @@ pre tt:after {
 }
 
 .vh12 {
-  height: 12vh
+  height: 12vh;
 }
 
 .wrap {
@@ -642,13 +603,9 @@ pre tt:after {
   top: 100px;
 }
 
-
-
-
-
 /******************************************** MEDIA QUERY ********************************************/
 
-@media only screen and (min-width: 0px) and (max-width:840px) {
+@media only screen and (min-width: 0px) and (max-width: 840px) {
   .container {
     margin: 30px;
   }
