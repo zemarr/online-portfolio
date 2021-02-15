@@ -17,10 +17,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div style={{ position: 'relative'}}>
+      <div style={{ position: "relative" }}>
         <main>{children}</main>
-
-
         <Footer />
       </div>
     </>

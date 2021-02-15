@@ -1,5 +1,4 @@
 .copyright {
-    /* padding: 15px 0; */
     height: 8vh;
     text-align: center;
     font-size: 12px;
@@ -18,7 +17,3 @@
 
 
 /******************************************* MEDIA QUERIES *******************************************/
-/* 
-@media all and (max-width: 768px) {
-    
-} */

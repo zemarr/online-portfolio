@@ -5,7 +5,6 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-color: #ec3454; */
     border-radius: 3px;
 }
 
@@ -31,6 +30,8 @@ nav {
     justify-content: space-between;
     height: 12vh;
     padding: 0 30px;
+    background-color: rgb(243, 243, 243);
+    z-index: 200;
 }
 
 nav ul {
@@ -60,26 +61,54 @@ nav ul li a:hover {
 }
 
 .hamburger {
+    background: url(https://res.cloudinary.com/cdacs/image/upload/v1607338370/Portfolio%20Assets/iconfinder_hamburgermenu_3688469_xbkx2w.svg);
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
-    right: 0;
+    height: 35px;
+    width: 35px;
+    right: 35px;
     display: none;
+    transition: all 0.2s ease;
 }
 
-.hamburger div {
-    margin: 4px 0;
-    width: 18px;
-    height: 2px;
-    background-color: black;
+.closeHamburger {
+    background: url(https://res.cloudinary.com/cdacs/image/upload/v1607352499/Portfolio%20Assets/iconfinder_00-ELASTOFONT-STORE-READY_close_2703079_wdyl4o.svg);
+    border-radius: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 35px;
+    display: none;
+    transition: all 0.2s ease;
+}
+
+.hamburger,
+.closeHamburger:focus {
+    outline: none;
 }
 
 /******************************************* MEDIA QUERIES *******************************************/
 
 @media all and (max-width: 768px) {
-    nav ul {
-        display: none;
+
+    nav ul li {
+        padding: 15px 30px;
     }
 
-    .hamburger {
+    .hamburger,
+    .closeHamburger {
         display: initial;
     }
+
+    .logoContainer span {
+        opacity: 0;
+    }
+
 }
