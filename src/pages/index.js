@@ -39,7 +39,7 @@ const IndexPage = () => (
               ></Button>
               <Button
                 name="MY RESUME"
-                url="https://docs.google.com/document/d/1Oe1-qUtZzZ7JXcgRG6qec1lUfHYSNolXZC2zc_LJ6l4/edit"
+                url="https://docs.google.com/document/d/1I-6qEueXkYyMAKtrE80fvEe2s71ps8hpth7xNEHB4-8/edit?usp=sharing"
                 className={style.myResume}
               ></Button>
             </div>

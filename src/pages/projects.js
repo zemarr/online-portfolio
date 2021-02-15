@@ -8,7 +8,7 @@ import { Container } from "."
 import wickret from "../images/Wickret.png"
 import busvest from "../images/BusVest.jpg"
 import xo from "../images/tic-tac-toe.png"
-import liight from "../images/liight/Liight(2).png"
+import liight from "../images/liight-mockup.png"
 
 const Projects = () => {
   return (
