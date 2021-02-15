@@ -27,6 +27,11 @@ const Projects = () => {
                             projectName="TicTacToe"
                             visit='http://bit.ly/2TkX-0u0JG'
                         />
+                        <GalleryCard
+                            frontImageClass={style.Liight}
+                            projectName="Liight"
+                            visit='https://liight-genesis-1097f8.netlify.app/'
+                        />
                     </div>
                 </div>
             </section >

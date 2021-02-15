@@ -1,6 +1,6 @@
 .projectGallery {
     position: relative;
-    height: calc(100vh - 20vh);
+    /* height: calc(100vh - 20vh); */
 }
 
 .galley {
@@ -29,6 +29,14 @@
 
 .XOMockup {
     background: url(https://res.cloudinary.com/cdacs/image/upload/v1607435306/Portfolio%20Assets/Screenshot_2020-12-08_Tic_Tac_Toe_n9gwqn.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.Liight {
+    background: url(../images/liight/Screenshot_2021-02-15\ Liight\(1\).png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
