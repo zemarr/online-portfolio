@@ -79,7 +79,8 @@ const CardData = styled.div`
     margin-top: 15px;
   }
   p {
-    /* color: #fff; */
+    margin-top: 15px;
+    margin-bottom: 0;
     font-size: 15px;
   }
 
