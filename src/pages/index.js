@@ -27,9 +27,9 @@ const IndexPage = () => (
           <div className={style.heroLeft}>
             <h1>Ayika Chukwudalu</h1>
             <p>
-              I'm a freelance <b>Front End Developer</b> focused on building web
-              interfaces with awesome <b>user experiences</b>.<br />
-              Do you need a website?
+              Motivated <b>Front End Developer</b> focused on building web
+              interfaces with great <b>user experiences</b>.<br />
+              Do you need a Website or Web-App?
             </p>
             <div className={style.mainContact}>
               <Button
