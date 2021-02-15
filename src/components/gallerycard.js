@@ -39,7 +39,7 @@ const Card = styled.div`
 
 const Overlay = styled.div`
   background-color: rgba(0, 0, 0, 0.226);
-  height: 300px;
+  height: 100%;
   width: 600px;
   display: flex;
   justify-content: center;
@@ -51,9 +51,15 @@ const Overlay = styled.div`
   }
   @media screen and (max-width: 850px) {
     width: 480px;
+    /* height: 250px; */
   }
   @media screen and (max-width: 768px) {
     width: 100%;
+    height: 230px;
+  }
+  @media screen and (max-width: 390px) {
+    width: 100%;
+    height: 180px;
   }
 `
 const StyledImage = styled("img")`
